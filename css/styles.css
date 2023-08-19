@@ -1,0 +1,125 @@
+*{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 10vh;
+}
+
+.container{
+    background: linear-gradient(#f3eaf3, rgb(224, 248, 255));
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.container-input{
+    background-color: #5e9;
+    padding: 6px;
+    border-radius: 5px;
+    box-shadow: -1px 2px 4px #aaa;
+    width: 100%;
+    margin-left: -5px;
+    
+}
+
+/* input que va a tomar la tarea */
+
+#div__input-tarea{
+    border-radius: 4px;
+    border: 1px solid #fff;
+    padding: 7px;
+    width: 75%;
+    font-size: 12px;
+    transition: .4s all;
+}
+#div__input-tarea:focus{
+    outline: none;
+    border: 1px solid #3a6;
+}
+
+/* boton que va a añadir la tarea en la lista */
+
+#btn-tarea{
+    border-radius: 50%;
+    border: 2px solid #35e ;
+    color: #fff;
+    font-size: 16px;
+    background-color: #58f;
+    box-shadow: -1px 2px 4px #3a6;
+    transition: .3s all;
+}
+
+#btn-tarea:hover{
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#lista-tareas{
+    padding: 0;
+}
+
+.item-tarea{
+    background-color: rgb(91, 149, 236);
+    list-style: none;
+    display: flex;
+    margin-top: 7px;
+    box-shadow: -1px 2px 3px #26a;
+    align-items: center;
+    position: relative;
+}
+
+.item-tarea > p{
+    color: #fff;
+    font-weight: 300;
+    margin-left: 3px;
+    margin-right: 5px;
+    letter-spacing: .5px;
+
+    
+}
+
+.deleteBtn{
+    color: rgb(243, 9, 9);
+    font-size: 6px;
+   border-radius: 20%;
+   align-self: flex-start;
+   position: absolute;
+   right: 0;
+   margin-top: -5px;
+   height: 15px;
+   outline: 1px solid rgb(248, 72, 87);
+   border: none;
+   background-color: #fafafa;
+}
+
+.deleteBtn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 205, 193);
+}
+
+.finishedBtn{
+    color: #5c8;
+    font-size: 6px;
+   border-radius: 20%;
+   margin-top: -5px;
+   height: 15px;
+   align-self: flex-start;
+   position: absolute;
+   right: 0;
+   margin-right: 20px;
+   outline: 1px solid #5e9;
+   border: none;
+   background-color: #fafafa;
+}
+
+.finishedBtn:hover{
+    cursor: pointer;
+    background-color: #bfb;
+    outline: 1px solid rgb(41, 214, 119);
+}
+.tachado{
+    text-decoration: line-through;
+}
