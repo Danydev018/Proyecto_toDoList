@@ -1,28 +1,30 @@
 *{
     font-family: sans-serif;
-    font-size: 12px;
+    font-size: 16px;
 }
 body{
     margin: 0;
     display: flex;
     justify-content: center;
-    padding: 10vh;
+    padding: 5vh;
+    background-color: #222;
 }
 
 .container{
-    background: linear-gradient(#f3eaf3, rgb(224, 248, 255));
-    padding: 30px;
+    background: linear-gradient(#bb8abb, rgb(224, 248, 255));
+    padding: 20px;
     border-radius: 5px;
+    width: 60vh;
 }
 
 .container-input{
-    background-color: #5e9;
+    background-color: rgb(33, 210, 113);
     padding: 6px;
-    border-radius: 5px;
+    border-radius: 2px;
+    border: 1px solid #4d9;
     box-shadow: -1px 2px 4px #aaa;
     width: 100%;
     margin-left: -5px;
-    
 }
 
 /* input que va a tomar la tarea */
@@ -32,7 +34,7 @@ body{
     border: 1px solid #fff;
     padding: 7px;
     width: 75%;
-    font-size: 12px;
+    font-size: 16px;
     transition: .4s all;
 }
 #div__input-tarea:focus{
@@ -44,7 +46,10 @@ body{
 
 #btn-tarea{
     border-radius: 50%;
+    padding: 7px;
+    width: 6vh;
     border: 2px solid #35e ;
+    margin-left: 2vh;
     color: #fff;
     font-size: 16px;
     background-color: #58f;
@@ -83,11 +88,11 @@ body{
 
 .deleteBtn{
     color: rgb(243, 9, 9);
-    font-size: 6px;
+    font-size: 12px;
    border-radius: 20%;
    align-self: flex-start;
    position: absolute;
-   right: 0;
+   right: 5px;
    margin-top: -5px;
    height: 15px;
    outline: 1px solid rgb(248, 72, 87);
@@ -102,13 +107,13 @@ body{
 
 .finishedBtn{
     color: #5c8;
-    font-size: 6px;
+    font-size: 12px;
    border-radius: 20%;
    margin-top: -5px;
    height: 15px;
    align-self: flex-start;
    position: absolute;
-   right: 0;
+   right: 10px;
    margin-right: 20px;
    outline: 1px solid #5e9;
    border: none;
